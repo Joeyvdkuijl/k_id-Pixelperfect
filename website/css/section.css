@@ -1,0 +1,324 @@
+body{
+    font-family: Century Gothic ;
+    scroll-behavior: smooth;
+    z-index: 1;
+}
+.firstOne{
+    background-image: url(../images/slide1/shadow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.secondOne{
+    background-image: url(../images/slide2/degrader1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.thirdOne{
+    background-image: url(../images/slide3/degrader5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fourthOne{
+    background-image: url(../images/slide5/degrader3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fithOne{
+    background-image: url(../images/slide3/degrader5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav_button{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.image_midden{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 5em;
+    margin-top: 11%;
+    z-index: 2;
+    position: relative;
+}
+.image_midden2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5em;
+    margin-top: 2%;
+    z-index: 1;
+    position: relative;
+    float: left;
+    padding: 5px;
+
+}
+#zidigt_logo{
+    height: 150px;
+}
+#textColor{
+    font-weight: 900;
+    color: white;
+    font-size: 2.4em;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+#happy__text{
+    width: 33%;
+    text-align: center;
+    padding-left: 34%;
+    padding-top: 0;
+    margin-top: 1em;
+    font-size: 95%;
+}
+#happy{
+    height: 250px;
+}
+/* slide1 */
+.feu1_img{
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 35px;
+    animation: imp1 2s infinite;
+}
+.feu2_img{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    animation: imp2 1s infinite;
+}
+.feu3_img{
+    position: absolute;
+    margin-left: -270px;
+    margin-top: 195px;
+    animation: imp3 2.5s infinite;
+}
+
+/* slide2 */
+.et1_img{
+    position: absolute;
+    margin-left: -370px;
+    margin-top: 195px;
+    animation: fly1 2s infinite;
+}
+.et2_img{
+    position: absolute;
+    margin-left: -370px;
+    margin-top: -20px;
+    animation: fly2 2s infinite;
+}
+.et3_img{
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 25px;
+    animation: fly3 2s infinite;
+}
+.bird{
+    width: 345px;
+    height:150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 54%;
+    margin-right: 46%;
+    margin-top: -35%;
+    transform: scale(0.8);
+    position: absolute;
+    z-index: 6;
+    animation: birdBewegen 1s infinite;
+}
+.zandloper{
+    width: 345px;
+    height:290px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 38%;
+    margin-right: 36%;
+    margin-top: -30%;
+    transform: scale(0.8);
+    position: absolute;
+    z-index: 6;
+    animation: zandloperBewegen 2.5s infinite;
+}
+.sprite{
+    width: 345px;
+    height:150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-right: 46%;
+    margin-top: -37%;
+    transform: scale(0.8);
+    position: absolute;
+    animation: spriteRandom 1s infinite;
+}
+#gokmachine_text{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+#gokmachine_text4{
+    color: black;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+.numbColor{
+    color: white;
+    /* background-color: #f3c81a ; */
+    font-family: Carnivalee Freakshow;
+}
+
+/* keyframes */
+
+@keyframes imp1{
+    0%{
+        transform: scale(0);
+    }
+    55%{
+        transform: 1;
+    }
+}
+@keyframes imp2{
+    0%{
+        transform: scale(0);
+    }
+    75%{
+        scale: 1;
+    }
+}
+@keyframes imp3{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+@keyframes birdBewegen{
+    0%{
+        background-image: url(../images/slide2/bird1.png);
+    }
+    25%{
+        background-image: url(../images/slide2/bird2.png);
+    }
+    50%{
+        background-image: url(../images/slide2/bird3.png);
+    }
+    75%{
+        background-image: url(../images/slide2/bird4.png);
+    }
+    100%{
+        background-image: url(../images/slide2/bird1.png);
+    }
+}
+@keyframes zandloperBewegen{
+    0%{
+        background-image: url(../images/slide4/glas1.png);
+    }
+    10%{
+        background-image: url(../images/slide4/glas2.png);
+    }
+    20%{
+        background-image: url(../images/slide4/glas3.png);
+    }
+    30%{
+        background-image: url(../images/slide4/glas4.png);
+    }
+    40%{
+        background-image: url(../images/slide4/glas5.png);
+    }
+    50%{
+        background-image: url(../images/slide4/glas6.png);
+    }
+    60%{
+        background-image: url(../images/slide4/glas7.png);
+    }
+    70%{
+        background-image: url(../images/slide4/glas8.png);
+    }
+    80%{
+        background-image: url(../images/slide4/glas9.png);
+    }
+    90%{
+        background-image: url(../images/slide4/glas9.png);
+    }
+    100%{
+        background-image: url(../images/slide4/glas10.png);
+    }
+}
+@keyframes fly1{
+    0%{
+        transform: scale(0);
+    }
+    80%{
+        transform: scale(0);
+    }
+    90%{
+        transform: scale(1);
+    }
+    100%{
+
+    }
+}
+@keyframes fly2{
+    0%{
+        transform: scale(0);
+    }
+    30%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+@keyframes fly3{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0);
+    }
+    60%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+
+
+/* sprite  */
+
+@keyframes spriteRandom{
+    0%{
+        background-image: url(../images/slide2/sprite-light1.png);
+    }
+    25%{
+        background-image: url(../images/slide2/sprite-light2.png);
+    }
+    50%{
+        background-image: url(../images/slide2/sprite-light3.png);
+    }
+    75%{
+        background-image: url(../images/slide2/sprite-light1.png);
+    }
+    100%{
+        background-image: url(../images/slide2/sprite-light2.png);
+    }
+}
